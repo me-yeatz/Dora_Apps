@@ -1,43 +1,35 @@
-# Astro Starter Kit: Minimal
+# Doraemon Memory Pocket - Landing Page
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A beautiful Doraemon-themed landing page for the Doraemon Memory Pocket app.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Features
 
-## 🚀 Project Structure
+- 🎮 **Two Memory Game Modes**
+  - Doraemon Emotions: Match different feelings with bonus card!
+  - Doraemon & Friends: Match all characters
 
-Inside of your Astro project, you'll see the following folders and files:
+- 📝 **Notes Management**
+  - Organize notes with folders
+  - Calendar view for tracking
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- 🔔 **Reminders & Alarms**
+  - Set date and time reminders
+  - Repeating daily alarms
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- 🔒 **Secure PIN Login**
+  - 6-digit PIN protection
+  - Remember me for 7 days
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Tech Stack
 
-Any static assets, like images, can be placed in the `public/` directory.
+- [Vite](https://vitejs.dev/) - Frontend build tool
+- [React](https://react.dev/) - UI library
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
 
-## 🧞 Commands
+## Deployment
 
-All commands are run from the root of the project, from a terminal:
+Landing page is hosted on Vercel: https://dora-apps.vercel.app
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Main app: https://dora-apps.vercel.app/Dora_Apps/
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Made with 💙 by @me-yeatz
